@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D13D88A200B0FEF00D1151E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13D889200B0FEF00D1151E /* AppDelegate.swift */; };
+		5D13D88C200B0FEF00D1151E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13D88B200B0FEF00D1151E /* FeedViewController.swift */; };
+		5D13D891200B0FEF00D1151E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D13D890200B0FEF00D1151E /* Assets.xcassets */; };
+		5D13D894200B0FEF00D1151E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D13D892200B0FEF00D1151E /* LaunchScreen.storyboard */; };
+		5D13D89F200B0FEF00D1151E /* FacebookLikeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13D89E200B0FEF00D1151E /* FacebookLikeAppTests.swift */; };
+		5D13D8AA200B0FEF00D1151E /* FacebookLikeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13D8A9200B0FEF00D1151E /* FacebookLikeAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D13D89B200B0FEF00D1151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D13D87E200B0FEE00D1151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D13D885200B0FEE00D1151E;
+			remoteInfo = FacebookLikeApp;
+		};
+		5D13D8A6200B0FEF00D1151E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D13D87E200B0FEE00D1151E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D13D885200B0FEE00D1151E;
+			remoteInfo = FacebookLikeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D13D886200B0FEF00D1151E /* FacebookLikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D13D889200B0FEF00D1151E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D13D88B200B0FEF00D1151E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5D13D890200B0FEF00D1151E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D13D893200B0FEF00D1151E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D13D895200B0FEF00D1151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D13D89A200B0FEF00D1151E /* FacebookLikeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLikeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D13D89E200B0FEF00D1151E /* FacebookLikeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLikeAppTests.swift; sourceTree = "<group>"; };
+		5D13D8A0200B0FEF00D1151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D13D8A5200B0FEF00D1151E /* FacebookLikeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLikeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D13D8A9200B0FEF00D1151E /* FacebookLikeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLikeAppUITests.swift; sourceTree = "<group>"; };
+		5D13D8AB200B0FEF00D1151E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D13D883200B0FEE00D1151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D897200B0FEF00D1151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D8A2200B0FEF00D1151E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D13D87D200B0FEE00D1151E = {
+			isa = PBXGroup;
+			children = (
+				5D13D888200B0FEF00D1151E /* FacebookLikeApp */,
+				5D13D89D200B0FEF00D1151E /* FacebookLikeAppTests */,
+				5D13D8A8200B0FEF00D1151E /* FacebookLikeAppUITests */,
+				5D13D887200B0FEF00D1151E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D13D887200B0FEF00D1151E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D13D886200B0FEF00D1151E /* FacebookLikeApp.app */,
+				5D13D89A200B0FEF00D1151E /* FacebookLikeAppTests.xctest */,
+				5D13D8A5200B0FEF00D1151E /* FacebookLikeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D13D888200B0FEF00D1151E /* FacebookLikeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5D13D889200B0FEF00D1151E /* AppDelegate.swift */,
+				5D13D88B200B0FEF00D1151E /* FeedViewController.swift */,
+				5D13D890200B0FEF00D1151E /* Assets.xcassets */,
+				5D13D892200B0FEF00D1151E /* LaunchScreen.storyboard */,
+				5D13D895200B0FEF00D1151E /* Info.plist */,
+			);
+			path = FacebookLikeApp;
+			sourceTree = "<group>";
+		};
+		5D13D89D200B0FEF00D1151E /* FacebookLikeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D13D89E200B0FEF00D1151E /* FacebookLikeAppTests.swift */,
+				5D13D8A0200B0FEF00D1151E /* Info.plist */,
+			);
+			path = FacebookLikeAppTests;
+			sourceTree = "<group>";
+		};
+		5D13D8A8200B0FEF00D1151E /* FacebookLikeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D13D8A9200B0FEF00D1151E /* FacebookLikeAppUITests.swift */,
+				5D13D8AB200B0FEF00D1151E /* Info.plist */,
+			);
+			path = FacebookLikeAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D13D885200B0FEE00D1151E /* FacebookLikeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D13D8AE200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeApp" */;
+			buildPhases = (
+				5D13D882200B0FEE00D1151E /* Sources */,
+				5D13D883200B0FEE00D1151E /* Frameworks */,
+				5D13D884200B0FEE00D1151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookLikeApp;
+			productName = FacebookLikeApp;
+			productReference = 5D13D886200B0FEF00D1151E /* FacebookLikeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D13D899200B0FEF00D1151E /* FacebookLikeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D13D8B1200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeAppTests" */;
+			buildPhases = (
+				5D13D896200B0FEF00D1151E /* Sources */,
+				5D13D897200B0FEF00D1151E /* Frameworks */,
+				5D13D898200B0FEF00D1151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D13D89C200B0FEF00D1151E /* PBXTargetDependency */,
+			);
+			name = FacebookLikeAppTests;
+			productName = FacebookLikeAppTests;
+			productReference = 5D13D89A200B0FEF00D1151E /* FacebookLikeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D13D8A4200B0FEF00D1151E /* FacebookLikeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D13D8B4200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeAppUITests" */;
+			buildPhases = (
+				5D13D8A1200B0FEF00D1151E /* Sources */,
+				5D13D8A2200B0FEF00D1151E /* Frameworks */,
+				5D13D8A3200B0FEF00D1151E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D13D8A7200B0FEF00D1151E /* PBXTargetDependency */,
+			);
+			name = FacebookLikeAppUITests;
+			productName = FacebookLikeAppUITests;
+			productReference = 5D13D8A5200B0FEF00D1151E /* FacebookLikeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D13D87E200B0FEE00D1151E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jayanta Gogoi";
+				TargetAttributes = {
+					5D13D885200B0FEE00D1151E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					5D13D899200B0FEF00D1151E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D13D885200B0FEE00D1151E;
+					};
+					5D13D8A4200B0FEF00D1151E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5D13D885200B0FEE00D1151E;
+					};
+				};
+			};
+			buildConfigurationList = 5D13D881200B0FEE00D1151E /* Build configuration list for PBXProject "FacebookLikeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D13D87D200B0FEE00D1151E;
+			productRefGroup = 5D13D887200B0FEF00D1151E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D13D885200B0FEE00D1151E /* FacebookLikeApp */,
+				5D13D899200B0FEF00D1151E /* FacebookLikeAppTests */,
+				5D13D8A4200B0FEF00D1151E /* FacebookLikeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D13D884200B0FEE00D1151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D13D894200B0FEF00D1151E /* LaunchScreen.storyboard in Resources */,
+				5D13D891200B0FEF00D1151E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D898200B0FEF00D1151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D8A3200B0FEF00D1151E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D13D882200B0FEE00D1151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D13D88C200B0FEF00D1151E /* FeedViewController.swift in Sources */,
+				5D13D88A200B0FEF00D1151E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D896200B0FEF00D1151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D13D89F200B0FEF00D1151E /* FacebookLikeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D13D8A1200B0FEF00D1151E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D13D8AA200B0FEF00D1151E /* FacebookLikeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D13D89C200B0FEF00D1151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D13D885200B0FEE00D1151E /* FacebookLikeApp */;
+			targetProxy = 5D13D89B200B0FEF00D1151E /* PBXContainerItemProxy */;
+		};
+		5D13D8A7200B0FEF00D1151E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D13D885200B0FEE00D1151E /* FacebookLikeApp */;
+			targetProxy = 5D13D8A6200B0FEF00D1151E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D13D892200B0FEF00D1151E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D13D893200B0FEF00D1151E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D13D8AC200B0FEF00D1151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D13D8AD200B0FEF00D1151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D13D8AF200B0FEF00D1151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FacebookLikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D13D8B0200B0FEF00D1151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FacebookLikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5D13D8B2200B0FEF00D1151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookLikeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLikeApp.app/FacebookLikeApp";
+			};
+			name = Debug;
+		};
+		5D13D8B3200B0FEF00D1151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FacebookLikeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacebookLikeApp.app/FacebookLikeApp";
+			};
+			name = Release;
+		};
+		5D13D8B5200B0FEF00D1151E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FacebookLikeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FacebookLikeApp;
+			};
+			name = Debug;
+		};
+		5D13D8B6200B0FEF00D1151E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FacebookLikeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayantagogoi.FacebookLikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FacebookLikeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D13D881200B0FEE00D1151E /* Build configuration list for PBXProject "FacebookLikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D13D8AC200B0FEF00D1151E /* Debug */,
+				5D13D8AD200B0FEF00D1151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D13D8AE200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D13D8AF200B0FEF00D1151E /* Debug */,
+				5D13D8B0200B0FEF00D1151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D13D8B1200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D13D8B2200B0FEF00D1151E /* Debug */,
+				5D13D8B3200B0FEF00D1151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D13D8B4200B0FEF00D1151E /* Build configuration list for PBXNativeTarget "FacebookLikeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D13D8B5200B0FEF00D1151E /* Debug */,
+				5D13D8B6200B0FEF00D1151E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D13D87E200B0FEE00D1151E /* Project object */;
+}
